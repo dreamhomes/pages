@@ -2095,7 +2095,7 @@ const Spark = {
 
 
 const soundManager = {
-	baseURL: 'https://lza.wang/tool/fireworks/mp3/',
+	baseURL: 'https://cdn.jsdelivr.net/gh/dreamhomes/pages@main/fireworks/mp3/',
 	ctx: new (window.AudioContext || window.webkitAudioContext),
 	sources: {
 		lift: {
