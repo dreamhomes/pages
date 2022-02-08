@@ -26,7 +26,7 @@
 
     //自动轮播
     autoPlay: function () {
-      time = setInterval(this.nextSlide.bind(this), 4000);
+      time = setInterval(this.nextSlide.bind(this), 2000);
     },
     //鼠标移入，清除定时器
     mouseIn: function () {
